@@ -18,9 +18,7 @@ BUILD_BROKEN_DUP_RULES := true
 TARGET_SCREEN_DENSITY := 407
 
 # Kernel
-TARGET_KERNEL_CONFIG            := vendor/kona_sec_custom_scto_defconfig
-TARGET_KERNEL_VARIANT_DEFCONFIG := vendor/r8q/kona_sec_r8q_eur_defconfig
-KERNEL_LD                       := DEBUG_DEFCONFIG=vendor/release_defconfig
+TARGET_KERNEL_CONFIG := r8q_defconfig
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := r8q
